@@ -16,6 +16,17 @@ h1 {
 	margin-bottom:15px;
 }
 
+h2 {
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+}
+
+a:link {color:#FF0000;}      
+a:visited {color:#00FF00;} 
+a:hover {color:#FF00FF;}  
+a:active {color:#0000FF;}  
+
 table{
 	width:100%;
 }
