@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Simple TEMP-Converter</title>
+	<script type="text/javascript" src="temperature.js"></script>
+	<link rel="stylesheet" type="text/css" href="global.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="logo.png" alt="Simple TEMP-converter Logo">
+        </header>
+		<section id="content">
+		    <h1>Temperature Converter</h1>
+			<table>
+			  <tr>
+				<th>Enter  Temperature (examples: 32F, 45C, -2.5f):</th>
+				<td><input id="original" onchange="calculate();" placeholder="0C" ></td>
+			  </tr>
+			  <tr>
+				<th>Converted Temperature:</th>
+				<td><span class="output" id="converted"></span></td>
+			  </tr>
+			</table>
+
+		<section>
+    </div>
+</body>
+</html>
