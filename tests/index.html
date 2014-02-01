@@ -9,11 +9,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<script type="text/javascript" src="../temperature.js"></script>
 	<link rel="stylesheet" type="text/css" href="../global.css" />
-	
   </head>
   <body>
-    <div id="mocha"></div>
-	
+      <div id="mocha"></div>
 	<div id="wrapper">
         <header>
             <img src="../logo.png" alt="Simple TEMP-converter Logo">
@@ -31,15 +29,19 @@
 			  </tr>
 			</table>
 
-		<section>
-		</div>
-	
+		<section>	
+	</div>
+
+
+
+    <script src="chai.js"></script>
     <script src="mocha.js"></script>
-    <script>mocha.setup('bdd')</script>
+    <script src="../temperature.js"></script>
+    <script>mocha.setup('tdd')</script>
     <script src="tests.js"></script>
+
     <script>
       mocha.run();
     </script>
-
   </body>
 </html>
