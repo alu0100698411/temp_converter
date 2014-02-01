@@ -22,10 +22,10 @@ h2 {
 	font-size:18px;
 }
 
-a:link {color:#FF0000;}      
-a:visited {color:#00FF00;} 
-a:hover {color:#FF00FF;}  
-a:active {color:#0000FF;}  
+a:link {color:#ff3535;}      
+a:visited {color:#ffffff;} 
+a:hover {color:#175cff;}  
+a:active {color:#ffffff;}  
 
 table{
 	width:100%;
